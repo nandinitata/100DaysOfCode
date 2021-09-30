@@ -1,0 +1,17 @@
+every person should shakehand with every other person in the room. For the first person, there would be N-1 people to shake hands. For second person there would N-2 people available but as he had already shaken hands with the first person,  there would be N-2 people to shake hands and so on.
+
+Therefore the total number of handshake = (N-1 + N-2 +….+ 1 + 0)=((N-1)*N)/2.
+ 
+    #include<iostream>
+    using namespace std;
+
+    int main()
+    {
+        int p;
+        cout<<“Enter number of Persons: “;
+        cin>>p;
+        cout<<“Maximum number of handshakes: “;
+        int max=p*(p–1)/2;
+        cout<<max;
+        return 0;
+    }

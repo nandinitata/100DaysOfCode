@@ -7,15 +7,13 @@ using namespace std;
 
 int main()
 {
-int n,b,d=0,p=1,remind;
+int n,d=0,p=1,remind;
 cin>>n;
-b=n;
 while(n>0)
 {
   remind=n%10;
-  d=d+remind*p;
+  d=d+(remind*p);
   n/=10;
   p*=2;
 }
-
 cout<<"The decimal number is "<<d;

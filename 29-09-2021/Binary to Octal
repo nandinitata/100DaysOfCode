@@ -22,5 +22,4 @@ int main()
             i *= 10;
         }
    cout<<"Octal value: " <<octal;
-
 }

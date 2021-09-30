@@ -4,7 +4,7 @@
 
 int main()
 {
-  int b, oct=0, j=1, remind;
+  int b, oct=0, j=1, remind,octal=0;
   cout<<"Enter the Binary Number: ";
   cin>>b;
   while (b!= 0)
@@ -17,10 +17,10 @@ int main()
    while (oct!= 0)
         {
             remind = oct % 8;
-            oct+= remind * i;
+            octal+= remind * i;
             oct/= 8;
             i *= 10;
         }
-   cout<<"Octal value: " <<oct;
+   cout<<"Octal value: " <<octal;
 
 }

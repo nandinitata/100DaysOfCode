@@ -1,8 +1,7 @@
-   //C++ Program
-    //Number expressed as sum of two prime numbers
+
     #include<iostream>
     using namespace std;
-    // Function to check prime number
+
     int Prime(int num)
     {
         int div=0;

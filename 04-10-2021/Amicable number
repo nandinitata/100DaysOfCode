@@ -1,7 +1,6 @@
 #include<iostream>
-    using namespace std;
-    // function to check Friendly pairs
-    void findAmicable(int first, int second)
+using namespace std;
+void findAmicable(int first, int second)
     {
         int sum1=0,sum2=0;
         for(int i=1; i<=first/2 ; i++)
@@ -15,14 +14,14 @@
                 sum2=sum2+i;
         }
         if(first==sum2 && second==sum1)
-            cout<<“Fiendly Pair(“<<first<<“,”<<second<<“)”;
+            cout<<"Fiendly Pair("<<first<<","<<second<<")";
         else
-            cout<<“Not a Fiendly Pair”;
+            cout<<"Not a Fiendly Pair";
     }
     int main()
     {
         int first,second;
-        cout<<“Enter first number : “;
+        cout<<"Enter first number : ";
         cin>>first;
         cout<<"Enter second number : ";
         cin>>second;

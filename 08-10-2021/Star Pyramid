@@ -4,13 +4,10 @@ using namespace std;
 int main()  
 {  
     int i,j,k=0,row=5;
-    //this loop work on the row
     for (i=1;i<=row;i++)
     {
-        //this loop work for both the space and print *
         for(j=1;j<=row-i;j++)
         cout<<" ";
-        //until value of the k is not equal to 2*i-i, it print star
         while(k!=(2*i-1))
         {
             cout<<"*";
